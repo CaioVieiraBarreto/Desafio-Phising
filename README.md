@@ -44,17 +44,17 @@ No terminal do Kali Linux, executou-se os seguintes passos dentro do **SET (Soci
 
 1. Obter acesso de superusuário:
    
-   ** sudo su
+   **sudo su**
    
 2. Iniciar a ferramenta:
 
-   ** setoolkit
+   **setoolkit**
    
 3. Selecionar o tipo de ataque:
-   - `1) Social-Engineering Attacks`
-   - `2) Web Site Attack Vectors`
-   - `3) Credential Harvester Attack Method`
-   - `3) Custom Import`
+   - 1) Social-Engineering Attacks
+   - 2) Web Site Attack Vectors
+   - 3) Credential Harvester Attack Method
+   - 3) Custom Import
 
 *Nota: Devido a mecanismos de proteção ao tentar clonar diretamente páginas de login de serviços como Facebook ou Instagram, foi desenvolvido um arquivo `index.html` personalizado simulando uma tela de login para garantir a execução do teste.*
 

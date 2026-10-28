@@ -14,7 +14,8 @@ O laboratório foi estruturado no VirtualBox utilizando 3 máquinas virtuais:
 - **Kali Linux:** Máquina atacante utilizada para hospedar a página de phishing e capturar as credenciais.
 - **Windows 10:** Máquina vítima (com o firewall desabilitado para testes de tráfego sem bloqueios).
 
-<!-- Adicione sua imagem do VirtualBox aqui: ![Maquinas Virtuais](./caminho-da-imagem.png) -->
+<img width="328" height="214" alt="image" src="https://github.com/user-attachments/assets/adc351bd-ca11-4ca3-90ea-21da01ab6e97" />
+
 
 ---
 
@@ -42,13 +43,13 @@ O laboratório foi estruturado no VirtualBox utilizando 3 máquinas virtuais:
 No terminal do Kali Linux, executou-se os seguintes passos dentro do **SET (Social-Engineer Toolkit)**:
 
 1. Obter acesso de superusuário:
-   ```bash
-   sudo su
-   ```
+   
+   ** sudo su
+   
 2. Iniciar a ferramenta:
-   ```bash
-   setoolkit
-   ```
+
+   ** setoolkit
+   
 3. Selecionar o tipo de ataque:
    - `1) Social-Engineering Attacks`
    - `2) Web Site Attack Vectors`
@@ -64,11 +65,11 @@ No terminal do Kali Linux, executou-se os seguintes passos dentro do **SET (Soci
 1. A página falsa foi disponibilizada no endereço IP do Kali Linux (`10.20.120.102`).
 2. A partir da máquina Windows 10, o usuário acessou o IP e inseriu credenciais de teste na interface de login.
 
-<!-- Adicione a Imagem 1 aqui: ![Tela de Login](./caminho-imagem-login.png) -->
+<img width="567" height="410" alt="image" src="https://github.com/user-attachments/assets/fed53949-e7bb-481a-93ac-cbbc25128344" />
 
 3. Após a submissão dos dados na página web, o `setoolkit` interceptou a requisição e exibiu em tempo real as credenciais capturadas no terminal do Kali Linux (`email` e `password`).
 
-<!-- Adicione a Imagem 2 aqui: ![Captura de Credenciais](./caminho-imagem-terminal.png) -->
+<img width="567" height="200" alt="image" src="https://github.com/user-attachments/assets/327584f5-c979-42ad-9d3a-17fab1e31b23" />
 
 ---
 
@@ -76,10 +77,3 @@ No terminal do Kali Linux, executou-se os seguintes passos dentro do **SET (Soci
 
 O teste de conceito demonstrou com sucesso a eficácia da engenharia social via captura de credenciais quando não há controles de segurança ativos no endpoint ou navegação na rede.
 
-Imagem do index.html
-
-<img width="567" height="410" alt="image" src="https://github.com/user-attachments/assets/fed53949-e7bb-481a-93ac-cbbc25128344" />
-
-Captura Após inserção das credenciais
-
-<img width="567" height="200" alt="image" src="https://github.com/user-attachments/assets/327584f5-c979-42ad-9d3a-17fab1e31b23" />

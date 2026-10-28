@@ -2,11 +2,11 @@
 
 Este projeto consiste na simulação de um ataque de *Phishing* (Red Team) para captura de credenciais de acesso em um ambiente de laboratório controlado utilizando o VirtualBox.
 
-> ⚠️ **Aviso de Responsabilidade:** Este projeto foi realizado exclusivamente para fins educacionais e de estudo sobre segurança da informação em um ambiente estritamente isolado e controlado.
+**Aviso de Responsabilidade:** Este projeto foi realizado exclusivamente para fins educacionais e de estudo sobre segurança da informação em um ambiente estritamente isolado e controlado.
 
 ---
 
-## 🛠️ Ambiente de Laboratório
+## Ambiente de Laboratório
 
 O laboratório foi estruturado no VirtualBox utilizando 3 máquinas virtuais:
 
@@ -18,7 +18,7 @@ O laboratório foi estruturado no VirtualBox utilizando 3 máquinas virtuais:
 
 ---
 
-## ⚙️ Configurações de Rede
+## Configurações de Rede
 
 - **Rede LAN:** `10.20.120.0/24`
 - **IP do Kali Linux (Atacante):** `10.20.120.102`
@@ -26,7 +26,7 @@ O laboratório foi estruturado no VirtualBox utilizando 3 máquinas virtuais:
 
 ---
 
-## 🧰 Ferramentas Utilizadas
+## Ferramentas Utilizadas
 
 - **Kali Linux**
 - **SET (Social-Engineer Toolkit / `setoolkit`)**
@@ -35,7 +35,7 @@ O laboratório foi estruturado no VirtualBox utilizando 3 máquinas virtuais:
 
 ---
 
-## 🚀 Passo a Passo da Execução
+## Passo a Passo da Execução
 
 ### 1. Configuração do Phishing no Kali Linux
 
@@ -72,6 +72,14 @@ No terminal do Kali Linux, executou-se os seguintes passos dentro do **SET (Soci
 
 ---
 
-## 📊 Resultados
+## Resultados
 
 O teste de conceito demonstrou com sucesso a eficácia da engenharia social via captura de credenciais quando não há controles de segurança ativos no endpoint ou navegação na rede.
+
+Imagem do index.html
+
+<img width="567" height="410" alt="image" src="https://github.com/user-attachments/assets/fed53949-e7bb-481a-93ac-cbbc25128344" />
+
+Captura Após inserção das credenciais
+
+<img width="567" height="200" alt="image" src="https://github.com/user-attachments/assets/327584f5-c979-42ad-9d3a-17fab1e31b23" />

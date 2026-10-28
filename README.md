@@ -2,8 +2,6 @@
 
 Este projeto consiste na simulação de um ataque de *Phishing* para captura de credenciais de acesso em um ambiente de laboratório controlado utilizando o VirtualBox.
 
-**Aviso de Responsabilidade:** Este projeto foi realizado exclusivamente para fins educacionais e de estudo sobre segurança da informação em um ambiente estritamente isolado e controlado.
-
 ---
 
 ## Ambiente de Laboratório
